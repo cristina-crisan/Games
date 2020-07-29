@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="../viewmodel/addGames.css" />
+  <title>Add new games</title>
+</head>
+
+<body>
+  <div class="game-wrapper">
+    <form class="game-form">
+      <div class="form-header">
+        <h2>Add new game</h2>
+      </div>
+      <label>Game title:</label>
+      <input type="text" name="title">
+      <label>Game description:</label>
+      <textarea></textarea>
+      <label>Game image:</label>
+      <input type="url" name="image">
+      <div class=action-buttons>
+        <button type="button" class="saveButton">Save</button>
+        <button type="button" class="cancelButton">Cancel</button>
+      </div>
+    </form>
+  </div>
+  <script src="../models/Games.js"></script>
+  <script src="../viewmodel/addGames.js"></script>
+</body>
+
+</html>
